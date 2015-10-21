@@ -550,7 +550,7 @@ PACKAGE_STRING='newlib 2.2.0'
 PACKAGE_BUGREPORT=''
 PACKAGE_URL=''
 
-ac_unique_file="syscalls.c"
+ac_unique_file="crt0.c"
 ac_subst_vars='LTLIBOBJS
 LIBOBJS
 sys_dir
@@ -1791,7 +1791,6 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu
 
 
 
-
 ac_aux_dir=
 for ac_dir in ../../../.. "$srcdir"/../../../..; do
   for ac_t in install-sh install.sh shtool; do
@@ -1813,7 +1812,6 @@ fi
 ac_config_guess="$SHELL $ac_aux_dir/config.guess"  # Please don't use this var.
 ac_config_sub="$SHELL $ac_aux_dir/config.sub"  # Please don't use this var.
 ac_configure="$SHELL $ac_aux_dir/configure"  # Please don't use this var.
-
 
 
 
@@ -3390,7 +3388,6 @@ OBJEXT=${oext}
 
 
 
-
 ac_config_files="$ac_config_files Makefile"
 
 cat >confcache <<\_ACEOF
@@ -4692,4 +4689,3 @@ if test -n "$ac_unrecognized_opts" && test "$enable_option_checking" != no; then
   { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: unrecognized options: $ac_unrecognized_opts" >&5
 $as_echo "$as_me: WARNING: unrecognized options: $ac_unrecognized_opts" >&2;}
 fi
-
